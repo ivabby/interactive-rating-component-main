@@ -16,6 +16,10 @@ body {
 .deactivate {
   display: none !important;
 }
+#feedback_form > *,
+#submit_state > * {
+  margin: 0.6rem !important;
+}
 
 .main_card {
   height: 100vh;
