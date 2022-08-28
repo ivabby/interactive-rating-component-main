@@ -1,0 +1,78 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  height: 100vh;
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass";
+  font-weight: 500;
+}
+
+.deactivate {
+  display: none !important;
+}
+
+.main_card {
+  height: 100vh;
+}
+
+.main_card_details {
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 20px;
+  color: hsl(0, 0%, 100%);
+}
+
+.main_card_star_icon,
+.submit_state_rating {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.main_card_details_details {
+  color: hsl(216, 12%, 54%);
+}
+.main_card_rating_option {
+  color: hsl(217, 12%, 63%);
+}
+.main_card_details_button {
+  background-color: hsl(25, 97%, 53%) !important;
+  color: hsl(0, 0%, 100%) !important;
+  border-radius: 20px;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  border-width: 0 !important;
+}
+.main_card_rating_options > * {
+  width: 40px;
+  height: 40px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+  border-radius: 75%;
+}
+
+.main_card_rating_options > *:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+.main_card_details_button:hover {
+  background-color: hsl(0, 0%, 100%) !important;
+  color: hsl(25, 97%, 53%) !important;
+}
+.active {
+  background-color: hsl(216, 12%, 54%) !important;
+  color: hsl(0, 0%, 100%) !important;
+}
+.submit_state_rating {
+  border-radius: 20px;
+  color: hsl(25, 97%, 53%);
+}
+@media (max-width: 378px) {
+  .main_card_rating_options > * {
+    width: 30px;
+    height: 30px;
+  }
+}
